@@ -1,8 +1,9 @@
 import React from 'react';
 
 function GetCurrentDate() {
-    const date = new Date();
-    return date.toDateString();
+    const date = new Date().toLocaleDateString();
+    return date;
 }
+
 
 export default GetCurrentDate;

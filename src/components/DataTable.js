@@ -58,10 +58,9 @@ import { useTable } from 'react-table'
                <th
                  {...column.getHeaderProps()}
                  style={{
-                   borderBottom: 'solid 3px red',
-                   background: 'aliceblue',
                    color: 'black',
                    fontWeight: 'bold',
+                   width: 250,
                  }}
                >
                  {column.render('Header')}
@@ -82,7 +81,8 @@ import { useTable } from 'react-table'
                      style={{
                        padding: '10px',
                        border: 'solid 1px gray',
-                       background: 'papayawhip',
+                       textAlign: 'center',
+                       //background: 'papayawhip',
                      }}
                    >
                      {cell.render('Cell')}
