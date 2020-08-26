@@ -12,9 +12,10 @@ function App() {
   return (
     <div>
 
-      <div className="text-center border-b p-3"> 
+      <div className="flex-col text-center border-b mx-64 py-4"> 
         <Header/>
-        <GetCurrentDate />
+        <br></br>
+        <GetCurrentDate/>
       </div>
 
       <div class="flex justify-center p-40">
